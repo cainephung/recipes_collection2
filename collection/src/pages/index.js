@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <div className='flex h-screen'>
-      <Head>
+      <Head>df
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className='m-auto'>
