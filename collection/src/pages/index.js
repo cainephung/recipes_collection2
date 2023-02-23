@@ -13,9 +13,13 @@ export default function Home() {
       </Head>
       <main className='m-auto'>
         <div className='text-center justify-center '>
-          <p className='font-black'> CAINE'S COLLECTION</p>
-          <p className=' text-sm font-bold md:text-xl p-4'> This is my personal recipes collection of simple or simplify version dishes that are suitable for everyone, but especially for people who want to cook something relatively easy but stil decicious!</p>
-          <button className='cursor-pointer px-5 py-1'>Let's Begin!</button>
+          <div>
+            <p className='font-black'> CAINE'S COLLECTION</p>
+            <p className=' text-sm font-bold md:text-xl p-4'> This is my personal recipes collection of simple or simplify version dishes from various sources, that are suitable for everyone, but especially for people who want to cook something relatively easy but stil decicious!</p>
+            <button className='cursor-pointer px-5 py-1'>Let's Begin!</button>        
+          </div>
+
+          
         </div>
       </main>
     </div>
