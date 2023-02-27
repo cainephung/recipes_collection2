@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ['latin'] })
 const List =() => {
 
     return (
-    <div id='Skills' className='w-full pt-16'>
+    <div id='list' className='w-full pt-16'>
     <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <p className='text-4xl text-center tracking-widest uppercase text-[#5651e5] font-black animate-ping-slow'>Recipes</p>
         <div className='grid md:grid-cols-2 lg:grid-cols-3 justify-between gap-20 pt-10'> 
@@ -31,7 +31,7 @@ const List =() => {
             </div>
 
             <div className='flex flex-col items-center justify-center font-black'>
-                <Link href='/'>
+                <Link href='/loco_moco'>
                     <button className='py-2 px-4'>More</button>
                 </Link>
             </div>
