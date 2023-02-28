@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ['latin'] })
 const loco_moco =() => {
 
     return (
-<>
+<div className='w-full h-full'>
         
        <div className=' fixed z-10 top-0 left-0 right-0 cursor-pointer'>
         <nav className="py-4 flex justify-center border-b-2 bg-black ">
@@ -182,7 +182,7 @@ const loco_moco =() => {
                 </Link>
           </div>
 </div>
-</>
+</div>
     )
 }
 

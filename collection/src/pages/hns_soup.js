@@ -32,7 +32,7 @@ const hs_soup =() => {
         </motion.div>
        
         <div className='grid place-items-center text-center pt-7'>
-        <motion.div initial={{x: '+100vw'}} animate={{x:0}} transition={{type:'spring', duration: 1, bounce: 0.4}}>
+        <motion.div initial={{x:'+100vw'}} animate={{x:0}} transition={{type:'spring', duration: 1, bounce: 0.4}}>
        
         <p className='text-3xl tracking-widest pb-7 uppercase text-[#5651e5] font-black '>Hot & Sour Soup</p>
         </motion.div>
