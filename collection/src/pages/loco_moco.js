@@ -27,9 +27,8 @@ const loco_moco =() => {
         </nav>
         </div>
 
-        <motion.div className='grid place-items-center text-center pt-20' initial={{x: '-100vw'}} animate={{x:0}} transition={{type:'spring', duration: 1, bounce: 0.4}}>
-       
-                <Image className='' src={lm}  width={200} height={200} alt='/' ></Image> 
+        <motion.div className='grid place-items-center text-center pt-20' initial={{x:'-100vw'}} animate={{x:0}} transition={{type:'spring', duration: 1, bounce: 0.4}}>
+            <Image className='' src={lm}  width={200} height={200} alt='/' ></Image> 
         </motion.div>
        
         <div className='grid place-items-center text-center pt-6'>
