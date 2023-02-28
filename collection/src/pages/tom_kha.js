@@ -31,10 +31,10 @@ const tom_kha =() => {
             <Image className='' src={tk}  width={200} height={200} alt='/' ></Image> 
         </motion.div>
        
-        <div className='grid place-items-center text-center pt-6'>
+        <div className='grid place-items-center text-center px-2 pt-6'>
         <motion.div initial={{x: '+100vw'}} animate={{x:0}} transition={{type:'spring', duration: 1, bounce: 0.4}}>
        
-        <p className='text-3xl  tracking-widest pb-7 uppercase text-[#5651e5] font-black '>Tom Kha Gai</p>
+        <p className='text-3xl tracking-widest pb-7 uppercase text-[#5651e5] font-black '>Tom Kha Gai</p>
         </motion.div>
 
         <motion.div className=' grid grid-cols-1 md:grid-cols-4 border-separate border-2 border-black place-items-center w-auto' initial={{x: '-100vw'}} animate={{x:0}} transition={{type:'spring', duration: 1, bounce: 0.4}}>
@@ -55,7 +55,7 @@ const tom_kha =() => {
 
         </div>
 
-        <div className='grid place-items-center text-center pt-7'>
+        <div className='grid place-items-center text-center px-2 pt-7'>
         <p className=' text-2xl font-extrabold text-[#5651e5] mb-4'>Ingredients:</p>
 
         <motion.div className='grid md:grid-cols-2 border-2 border-black items-center text-ce justify-center m-auto p-5 gap-x-10' initial={{x: '+100vw'}} animate={{x:0}} transition={{type:'spring', duration: 1, bounce: 0.4}}>
@@ -116,13 +116,13 @@ const tom_kha =() => {
             <label for="default-checkbox" class="ml-2 text-sm font-bold ">Chopped cilantro: 1 tbsp.</label>
         </div>
        
-        <div class="flex items-center mb-4 ">
+        <div class="flex items-center mb-4">
             <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4  bg-gray-100 border-gray-300"></input>
             <label for="default-checkbox" class="ml-2 text-sm font-bold ">Cooked  rice (optional).</label>
         </div>
         </motion.div>
        
-        <div className='grid place-items-center text-center pt-7'>
+        <div className='grid place-items-center text-center px-2 pt-7'>
         <p className=' text-2xl font-extrabold text-[#5651e5] mb-4'>Notes:</p>
         <div className=' grid grid-cols-1  border-2 border-black place-items-center w-auto'>
             <h3 className=' font-bold pb-4'>- Chicken thigh: Cut to bite-size pieces.</h3>
@@ -133,7 +133,7 @@ const tom_kha =() => {
         </div>
         </div>
 
-        <div className='grid place-items-center text-center pt-7'>
+        <div className='grid place-items-center text-center px-2 pt-7'>
         <p className=' text-2xl font-extrabold text-[#5651e5] mb-4'>Steps:</p>
 
         <div className='border-black border-2 p-5 justify-center m-auto'>

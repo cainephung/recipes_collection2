@@ -31,17 +31,17 @@ const beef_stew =() => {
             <Image className='' src={bs}  width={200} height={200} alt='/' ></Image> 
         </motion.div>
        
-        <div className='grid place-items-center text-center pt-6'>
+        <div className='grid place-items-center text-center px-2 pt-7'>
         <motion.div initial={{x: '+100vw'}} animate={{x:0}} transition={{type:'spring', duration: 1, bounce: 0.4}}>
        
-        <p className='text-3xl  tracking-widest pb-7 uppercase text-[#5651e5] font-black '>Beef Stew</p>
+        <p className='text-3xl tracking-widest pb-7 uppercase text-[#5651e5] font-black '>Beef Stew</p>
         </motion.div>
 
         <motion.div className=' grid grid-cols-1 md:grid-cols-4 border-separate border-2 border-black place-items-center w-auto' initial={{x: '-100vw'}} animate={{x:0}} transition={{type:'spring', duration: 1, bounce: 0.4}}>
             
             <h3 className='underline text-[#5651e5] font-extrabold'>Servings:</h3>
             <h3 className='col-span-3 font-bold'>5</h3>
-            <h3 className=' underline text-[#5651e5] font-extrabold pt-2'> Time:</h3>
+            <h3 className=' underline text-[#5651e5] font-extrabold pt-2'>Time:</h3>
             <h3 className='col-span-3 font-bold'>25 mins</h3>     
             <h3 className=' underline text-[#5651e5] font-extrabold pt-2'>Author:</h3>
             <h3 className='col-span-3 font-bold'>Heirloom</h3> 
@@ -52,7 +52,7 @@ const beef_stew =() => {
         </motion.div>
         </div>
 
-        <div className='grid place-items-center text-center pt-7'>
+        <div className='grid place-items-center text-center px-2 pt-7'>
         <p className=' text-2xl font-extrabold text-[#5651e5] mb-4'>Ingredients:</p>
 
         <motion.div className='grid md:grid-cols-2 border-2 border-black justify-center m-auto p-5 gap-x-10' initial={{x: '+100vw'}} animate={{x:0}} transition={{type:'spring', duration: 1, bounce: 0.4}}>
@@ -105,7 +105,7 @@ const beef_stew =() => {
         </motion.div>
        
 
-        <div className='grid place-items-center text-center pt-7'>
+        <div className='grid place-items-center text-center px-2 pt-7'>
         <p className=' text-2xl font-extrabold text-[#5651e5] mb-4'>Steps:</p>
 
         <div className='border-black border-2 p-5 justify-center m-auto'>

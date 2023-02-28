@@ -31,10 +31,10 @@ const loco_moco =() => {
             <Image className='' src={lm}  width={200} height={200} alt='/' ></Image> 
         </motion.div>
        
-        <div className='grid place-items-center text-center pt-6'>
+        <div className='grid place-items-center text-center px-2 pt-7'>
         <motion.div initial={{x: '+100vw'}} animate={{x:0}} transition={{type:'spring', duration: 1, bounce: 0.4}}>
        
-        <p className='text-3xl  tracking-widest pb-7 uppercase text-[#5651e5] font-black '>Loco Moco</p>
+        <p className='text-3xl tracking-widest pb-7 uppercase text-[#5651e5] font-black '>Beef Stew</p>
         </motion.div>
 
         <motion.div className=' grid grid-cols-1 md:grid-cols-4 border-separate border-2 border-black place-items-center w-auto' initial={{x: '-100vw'}} animate={{x:0}} transition={{type:'spring', duration: 1, bounce: 0.4}}>
@@ -46,7 +46,7 @@ const loco_moco =() => {
             <h3 className=' underline text-[#5651e5] font-extrabold pt-2'>Cook time:</h3>
             <h3 className='col-span-3 font-bold'>15 mins</h3>     
             <h3 className=' underline text-[#5651e5] font-extrabold pt-2'>Author:</h3>
-            <h3 className='col-span-3 font-bold'>Chef John</h3> 
+            <h3 className='col-span-3 font-bold'>Chef John</h3>  
             <h3 className=' underline text-[#5651e5] font-extrabold pt-2'>Website:</h3>
             <Link className='col-span-3 cursor-pointer' href="https://www.allrecipes.com/recipe/272767/chef-johns-loco-moco/" target="_blank">
             <h3 className='font-bold underline'>https://www.allrecipes.com/recipe/272767/chef-johns-loco-moco/</h3> 
@@ -54,10 +54,10 @@ const loco_moco =() => {
         </motion.div>
         </div>
 
-        <div className='grid place-items-center text-center pt-7'>
+        <div className='grid place-items-center text-center px-2 pt-7'>
         <p className=' text-2xl font-extrabold text-[#5651e5] mb-4'>Ingredients:</p>
 
-        <motion.div className='grid md:grid-cols-2 border-2 border-black justify-center m-auto p-5 gap-x-10' initial={{x: '+100vw'}} animate={{x:0}} transition={{type:'spring', duration: 1, bounce: 0.4}}>
+        <motion.div className='grid md:grid-cols-2 border-2 border-black items-center text-ce justify-center m-auto p-5 gap-x-10' initial={{x: '+100vw'}} animate={{x:0}} transition={{type:'spring', duration: 1, bounce: 0.4}}>
         <div class="flex items-center text-center mb-4">
             <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4  bg-gray-100 border-gray-300"></input>
             <label for="default-checkbox" class="ml-2 text-sm  font-bold">Ground beef patties (4 ounce): 2.</label>
@@ -119,9 +119,8 @@ const loco_moco =() => {
             <label for="default-checkbox" class="ml-2 text-sm font-bold ">Cooked white rice: 2 cups.</label>
         </div>
         </motion.div>
-       
 
-        <div className='grid place-items-center text-center pt-7'>
+        <div className='grid place-items-center text-center px-2 pt-7'>
         <p className=' text-2xl font-extrabold text-[#5651e5] mb-4'>Steps:</p>
 
         <div className='border-black border-2 p-5 justify-center m-auto'>
@@ -178,11 +177,11 @@ const loco_moco =() => {
         </div>
 
         <div className='flex justify-center pt-7 pb-2'>
-                <Link href='/loco_moco'>
+                <Link href='/tom_kha'>
                     <div className='dark:bg-blue-100 rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300'><HiOutlineChevronDoubleUp className='font-black text-[#5651e5]' size={30}/></div>
                 </Link>
           </div>
-    </div>
+</div>
 </>
     )
 }
