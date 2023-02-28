@@ -7,6 +7,7 @@ import kb from '../pics/kb.png'
 import tk from '../pics/tk.png'
 import hns from '../pics/hns.png'
 import bs from '../pics/bs.png'
+import{motion} from "framer-motion"
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -14,7 +15,7 @@ const inter = Inter({ subsets: ['latin'] })
 const List =() => {
 
     return (
-    <div id='list' className='w-full pt-16'>
+    <motion.div id='list' className='w-full pt-16' initial={{y:'-100vw'}} animate={{y:0}} transition={{type:'spring', duration: 1, bounce: 0.4}}>
     <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <p className='text-4xl text-center tracking-widest uppercase text-[#5651e5] font-black animate-ping-slow'>Recipes</p>
         <div className='grid md:grid-cols-2 lg:grid-cols-3 justify-between gap-20 pt-10'> 
@@ -124,7 +125,7 @@ const List =() => {
 
         </div>
     </div>
-</div>
+</motion.div>
 )
 }
 

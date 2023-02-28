@@ -39,3 +39,8 @@ html {
     @apply shadow-xl  rounded-xl uppercase  bg-[#5651e5]  text-white
   }
 }
+
+html {
+--scroll-behavior: smooth!important;
+scroll-behavior: smooth!important;
+}

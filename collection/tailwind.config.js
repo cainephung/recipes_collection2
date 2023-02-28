@@ -17,10 +17,10 @@ module.exports = {
         }
       },
       animation: {
-        'spin-slow': 'spin 1s linear 2',
-        'pulse-slow': 'pulse 1s linear 2',
-        'ping-slow': 'ping 1s linear 2',
-        'bounce-slow': 'bounce 1s linear 2',
+        'spin-once': 'spin 1s linear 1',
+        'pulse-once': 'pulse 1s linear 1',
+        'ping-once': 'ping 1s linear 1',
+        'bounce-once': 'bounce 1s linear 1',
         wiggle: 'wiggle 1s ease-in-out infinite ',
         
 
