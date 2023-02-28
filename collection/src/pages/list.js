@@ -53,7 +53,7 @@ const List =() => {
             </div>
 
             <div className='flex flex-col items-center justify-center font-black'>
-                <Link href='/'>
+                <Link href='/korean_beef'>
                     <button className='py-2 px-4'>More</button>
                 </Link>
             </div>
@@ -73,7 +73,7 @@ const List =() => {
             </div>
 
             <div className='flex flex-col items-center justify-center font-black'>
-                <Link href='/'>
+                <Link href='/tom_kha'>
                     <button className='py-2 px-4'>More</button>
                 </Link>
             </div>
@@ -113,7 +113,7 @@ const List =() => {
             </div>
 
             <div className='flex flex-col items-center justify-center font-black'>
-                <Link href='/'>
+                <Link href='/beef_stew'>
                     <button className='py-2 px-4'>More</button>
                 </Link>
             </div>

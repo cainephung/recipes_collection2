@@ -2,13 +2,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import Link from "next/link";
-import kb from '../pics/kb.png'
+import bs from '../pics/bs.png'
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
 import{motion} from "framer-motion"
 
 const inter = Inter({ subsets: ['latin'] })
 
-const korean_beef =() => {
+const beef_stew =() => {
 
     return (
 <>
@@ -27,29 +27,27 @@ const korean_beef =() => {
         </nav>
         </div>
 
-        <motion.div className='grid place-items-center text-center pt-20' initial={{x: '-100vw'}} animate={{x:0}} transition={{type:'spring', duration: 1, bounce: 0.4}}>
-            <Image className='' src={kb}  width={200} height={200} alt='/' ></Image> 
+        <motion.div className='grid place-items-center text-center pt-20' initial={{x:'-100vw'}} animate={{x:0}} transition={{type:'spring', duration: 1, bounce: 0.4}}>
+            <Image className='' src={bs}  width={200} height={200} alt='/' ></Image> 
         </motion.div>
        
-        <div className='grid place-items-center text-center pt-7'>
+        <div className='grid place-items-center text-center pt-6'>
         <motion.div initial={{x: '+100vw'}} animate={{x:0}} transition={{type:'spring', duration: 1, bounce: 0.4}}>
        
-        <p className='text-3xl tracking-widest pb-7 uppercase text-[#5651e5] font-black '>Korean ground beef with rice</p>
+        <p className='text-3xl  tracking-widest pb-7 uppercase text-[#5651e5] font-black '>Beef Stew</p>
         </motion.div>
 
-        <motion.div className='grid grid-cols-1 md:grid-cols-4 border-separate border-2 border-black place-items-center w-auto' initial={{x: '-100vw'}} animate={{x:0}} transition={{type:'spring', duration: 1, bounce: 0.4}}>
+        <motion.div className=' grid grid-cols-1 md:grid-cols-4 border-separate border-2 border-black place-items-center w-auto' initial={{x: '-100vw'}} animate={{x:0}} transition={{type:'spring', duration: 1, bounce: 0.4}}>
             
             <h3 className='underline text-[#5651e5] font-extrabold'>Servings:</h3>
-            <h3 className='col-span-3 font-bold'>4</h3>
-            <h3 className='underline text-[#5651e5] font-extrabold pt-2'>Prep time:</h3>
-            <h3 className=' col-span-3 font-bold pt-2'>5 mins</h3>
-            <h3 className=' underline text-[#5651e5] font-extrabold pt-2'>Cook time:</h3>
-            <h3 className='col-span-3 font-bold pt-2'>15 mins</h3>     
+            <h3 className='col-span-3 font-bold'>5</h3>
+            <h3 className=' underline text-[#5651e5] font-extrabold pt-2'> Time:</h3>
+            <h3 className='col-span-3 font-bold'>25 mins</h3>     
             <h3 className=' underline text-[#5651e5] font-extrabold pt-2'>Author:</h3>
-            <h3 className='col-span-3 font-bold pt-2'>ALYSSA RIVERS</h3> 
+            <h3 className='col-span-3 font-bold'>Heirloom</h3> 
             <h3 className=' underline text-[#5651e5] font-extrabold pt-2'>Website:</h3>
-            <Link className='col-span-3 cursor-pointer pt-2' href="https://therecipecritic.com/korean-ground-beef-rice-bowls/" target="_blank">
-            <h3 className='font-bold underline'>https://therecipecritic.com/korean-ground-beef-rice-bowls/</h3> 
+            <Link className='col-span-3 cursor-pointer' href="https://www.food.com/recipe/quick-and-easy-beef-stew-293275?scale=5" target="_blank">
+            <h3 className='font-bold underline'>https://www.food.com/recipe/quick-and-easy-beef-stew-293275?scale=5</h3> 
             </Link>
         </motion.div>
         </div>
@@ -60,52 +58,49 @@ const korean_beef =() => {
         <motion.div className='grid md:grid-cols-2 border-2 border-black justify-center m-auto p-5 gap-x-10' initial={{x: '+100vw'}} animate={{x:0}} transition={{type:'spring', duration: 1, bounce: 0.4}}>
         <div class="flex items-center text-center mb-4">
             <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4  bg-gray-100 border-gray-300"></input>
-            <label for="default-checkbox" class="ml-2 text-sm  font-bold">Ground beef 90% lean: 1 lb.</label>
+            <label for="default-checkbox" class="ml-2 text-sm  font-bold">Sirloin tip roast, cubed: 1 1⁄4 lbs.</label>
         </div>
         <div class="flex items-center mb-4 ">
             <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4  bg-gray-100 border-gray-300"></input>
-            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Minced garlic: 3 cloves.</label>
+            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Large potatoes, cubed: 2.</label>
         </div>
         <div class="flex items-center mb-4 ">
             <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4  bg-gray-100 border-gray-300"></input>
-            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Brown sugar: 1/4 cup.</label>
+            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Carrots, sliced: 3.</label>
         </div>
         <div class="flex items-center mb-4 ">
             <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4  bg-gray-100 border-gray-300"></input>
-            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Reduced-sodium soy sauce: 1/4 cup.</label>
+            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Onion, chopped: 1.</label>
         </div>
         <div class="flex items-center mb-4 ">
             <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4  bg-gray-100 border-gray-300"></input>
-            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Sesame oil: 2 tsps.</label>
+            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Salt: 1 tsp.</label>
         </div>
         <div class="flex items-center mb-4 ">
             <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4  bg-gray-100 border-gray-300"></input>
-            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Ground ginger: 1/4 tsp.</label>
+            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Pepper: 1 tsp..</label>
         </div>
         <div class="flex items-center mb-4 ">
             <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4  bg-gray-100 border-gray-300"></input>
-            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Crushed red pepper flakes: 1/4 tsp.</label>
+            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Worcestershire sauce: 1 tbsp.</label>
         </div>
         <div class="flex items-center mb-4 ">
             <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4  bg-gray-100 border-gray-300"></input>
-            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Pepper: 1/4 tsp.</label>
+            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Flour: 1/2 cup.</label>
         </div>
         <div class="flex items-center mb-4 ">
             <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4  bg-gray-100 border-gray-300"></input>
-            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Minced onion/ shallot: 1 tsp.</label>
+            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Olive oil: 1 tbsp.</label>
+        </div>
+     
+        <div class="flex items-center mb-4 ">
+            <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4  bg-gray-100 border-gray-300"></input>
+            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Beef broth(16 ounce): 3.</label>
         </div>
 
         <div class="flex items-center mb-4 ">
             <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4  bg-gray-100 border-gray-300"></input>
-            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Chopped green onion: 2 tbsps</label>
-        </div>
-        <div class="flex items-center mb-4 ">
-            <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4  bg-gray-100 border-gray-300"></input>
-            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Toasted sesame seeds: 1 tsp.</label>
-        </div>
-        <div class="flex items-center mb-4 ">
-            <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4  bg-gray-100 border-gray-300"></input>
-            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Cooked white/ brown rice: 2 cups.</label>
+            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Salt & pepper: to taste.</label>
         </div>
         </motion.div>
        
@@ -117,7 +112,7 @@ const korean_beef =() => {
         <div class="items-center mb-4 ">
             <h3 className=' pl-2 underline'>Step 1: </h3>
             <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4  bg-gray-100 border-gray-300"></input>
-            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Using a skillet/ pan, lightly brown the minced onion and garlic, then add in the ground beef and cook till no longer pink over medium heat. (Drain some of the grease if necessary).
+            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Using amedium mixing bowl, add in the flour and 1 tsp each of salt and pepper; then mix well.
             </label>
         </div>
 
@@ -125,21 +120,49 @@ const korean_beef =() => {
         
             <h3 className=' pl-2 underline'>Step 2: </h3>
             <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4  bg-gray-100 border-gray-300"></input>
-            <label for="default-checkbox" class="ml-2 text-sm font-bold "> Add soy sauce, brown sugar, ginger, sesame oil, red pepper flakes and pepper; then whisk well. Then pour it evenly into the pan/ skillet with the ground beef and lightly mix them.
+            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Add in the beef cube and mix until fully coated.
             </label>
         </div>
 
         <div class=" items-center mb-4">
             <h3 className=' pl-2 underline'>Step 3: </h3>
             <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4  bg-gray-100 border-gray-300"></input>
-            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Place the ground beef over rice, and follow by the green onions and sesame seeds(divided evenly into 4 portions).
+            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Using a soup pot, add in the oil over medium heat. When sizzle, add in the beef cube and cook until browned on all sides.
+            </label>
+        </div>
+
+        <div class=" items-center mb-4">
+            <h3 className=' pl-2 underline'>Step 4: </h3>
+            <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4  bg-gray-100 border-gray-300"></input>
+            <label for="default-checkbox" class="ml-2 text-sm font-bold "> Add the onion, carrot, and potatoes to pot; then sprinkle in the remaining flour.
+            </label>
+        </div>
+
+        <div class=" items-center mb-4">
+            <h3 className=' pl-2 underline'>Step 5: </h3>
+            <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4  bg-gray-100 border-gray-300"></input>
+            <label for="default-checkbox" class="ml-2 text-sm font-bold "> Cook for 3-4 minutes, then add beef broth and bring to a boil.
+            </label>
+        </div>
+
+        <div class=" items-center mb-4">
+            <h3 className=' pl-2 underline'>Step 6: </h3>
+            <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4  bg-gray-100 border-gray-300"></input>
+            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Turn down the heat and simmer till the veggies are tender; then add the worcestershire sauce amd season to taste with salt and pepper.
+            </label>
+        </div>
+
+        <div class=" items-center">
+            <h3 className=' pl-2 underline'>Step 7: </h3>
+            <input id="default-checkbox" type="checkbox" value="" class="w-4 h-4  bg-gray-100 border-gray-300"></input>
+            <label for="default-checkbox" class="ml-2 text-sm font-bold ">Divided evenly into 5 portions, and enjoy with some rice/ bread.
             </label>
         </div>
         </div>
         </div>
 
         <div className='flex justify-center pt-7 pb-2'>
-            <Link href='/korean_beef'>
+            <Link href='/beef_stew'>
                 <div className='dark:bg-blue-100 rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300'><HiOutlineChevronDoubleUp className='font-black text-[#5651e5]' size={30}/></div>
             </Link>
         </div>
@@ -148,4 +171,4 @@ const korean_beef =() => {
     )
 }
 
-export default korean_beef
+export default beef_stew
